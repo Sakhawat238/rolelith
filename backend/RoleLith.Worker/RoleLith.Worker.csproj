@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-RoleLith.Worker-6c58c132-6055-433e-ba24-0c622ef91834</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoleLith.Core\RoleLith.Core.csproj" />
+    <ProjectReference Include="..\RoleLith.Infrastructure\RoleLith.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
