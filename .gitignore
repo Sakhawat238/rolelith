@@ -32,6 +32,7 @@ pnpm-debug.log*
 appsettings.*.json
 /backend/Reference/
 /backend/talensis/
+/backend/**/Migrations/
 
 # Python
 **/.venv/

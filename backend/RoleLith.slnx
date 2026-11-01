@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/RoleLith.UnitTests/RoleLith.UnitTests.csproj" />
+  </Folder>
   <Project Path="RoleLith.Api/RoleLith.Api.csproj" Id="4495a3c3-0cc7-4514-a101-44ab4d7876cd" />
   <Project Path="RoleLith.Core/RoleLith.Core.csproj" Id="ebd6fe09-325f-48d4-9fdc-8086a4da3139" />
   <Project Path="RoleLith.Infrastructure/RoleLith.Infrastructure.csproj" Id="2b5dd3c4-0145-46ee-b710-c15de5e42564" />
